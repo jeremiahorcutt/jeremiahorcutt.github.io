@@ -1,0 +1,136 @@
+body{
+    background-color:grey;
+}
+.main {
+ background-color: #C0C0C0;
+ font-family: "Arial Black", Gadget, sans-serif;
+ max-width: 1300px;
+ margin: 0 auto;
+ height: 900px;
+ border: solid black;
+}
+
+header {
+ background-color: #000000;
+ padding: 8px;
+ border-radius: 8px;
+ position: fixed;
+ top: 0;
+ left: 0;
+ width: 99%;
+ font-family: 'Russo One', sans-serif;
+}
+
+h1 {
+ font-size: 2.5em;
+ text-align: center;
+ color: #ffffff;
+}
+
+.lessons{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 50px 60px 60px 100%;
+}
+
+h2 {
+ font-size: 2em;
+ text-align: left;
+ border-bottom: 5px double;
+ grid-row: 3/4;
+ grid-column:1/3;
+ margin: 0;
+ padding: 0;
+ height: 50px;
+ padding-left: 10px;
+}
+
+ul {
+ text-align: left;
+ color: #000000;
+ grid-row:4/5;
+ grid-column:1/2;
+ align-self:start;
+ font-size:24px;
+}
+
+footer {
+ background-color: #000000;
+ border-radius: 10px;
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ width: 99%;
+ color: #ffffff;
+ padding: 8px;
+}
+
+.footerInfo {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+img {
+ grid-row:2/4;
+ grid-column:3/4;
+ border-style:solid;
+ border-color:white;
+ border-width:large;
+ z-index: 1;
+}
+
+#byuLink{
+    align-self: center;
+    color: white;
+    padding-left: 4px;
+}
+#year{
+    color:white;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.lastModified{
+    color: yellowgreen;
+    justify-content:center;
+    font-size: 11px;
+    display: flex;
+}
+
+@media screen and (max-width:481px) {
+    
+    #year, #byuLink, .footerInfo {
+        font-size: 8px;
+    }
+    
+    .lastModified{
+        font-size:7px;
+    }
+
+    img, h2, .lessons, header{
+        display:block;
+        margin:auto;
+    }
+     h1{
+      margin: 30px;
+      font-size: 30px;
+    }
+    h2{
+      height:auto;
+      margin-top:120px;
+      margin-bottom:0px;
+      font-size: 19px;
+      text-align:center;
+     
+    }
+
+    header{
+      position: absolute;
+
+    }
+    img, .lessons{
+      margin-top:10px;
+    }
+    
+  }
