@@ -1,0 +1,17 @@
+@media only screen and (max-width:1150px ){
+body{
+    grid-template-columns: 100px 1fr 1fr 100px;
+    grid-template-rows:175px 1fr 1fr 75px;
+}
+
+.thirdPrinciple{
+    grid-column:2/3;
+    grid-row:3/4;
+}
+h1{
+    font-size:2em;
+}
+header, footer {
+    grid-column:2/4;
+}
+}
