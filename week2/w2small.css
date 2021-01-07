@@ -17,4 +17,7 @@
     header, footer {
         grid-column:2/3;
     }
+    h1{
+        font-size:1.9em;
+    }
     }
