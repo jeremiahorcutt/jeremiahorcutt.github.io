@@ -262,3 +262,9 @@ h3{
     color:#163172;
     font-style:italic;
 }
+/*gallery css*/
+.gallerycontent{
+    box-shadow: 2px 2px 4px #888888;
+    width:300px;
+    margin:0 auto;
+}
