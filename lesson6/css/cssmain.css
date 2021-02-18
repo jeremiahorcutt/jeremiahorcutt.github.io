@@ -150,6 +150,7 @@ a:hover{
 .linkName{
     margin:5px;
     margin-top:0px;
+    color: white;
 }
 #phone:before{
     content: '\260F ';
