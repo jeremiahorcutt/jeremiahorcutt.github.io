@@ -1,0 +1,47 @@
+body{
+    background-color:white;
+    color:black;
+    font-size:18px;
+    font-family: Ubuntu, sans-serif;
+}
+table{
+    box-shadow:10px 10px 10px #628ca6;
+    text-align:center;
+    background-color: lightgrey;
+}
+.rowtype1{
+    background-color:#e7f0ed;
+}
+.rowtype2{
+    background-color:#e7ffed;
+}
+.label{
+    background-color: #628ca6;
+    color:white;
+    font-weight:bold;
+}
+th, tfoot{
+    background-color: #7fb9c2;
+}
+#blackfriday{
+    font-style:italic;
+}
+th{
+    font-weight:bold;
+    font-size:30px;
+}
+#foot{
+    font-size:11px;
+    font-weight:bold;
+}
+td{
+    padding:10px;
+}
+#november td:nth-child(3){
+    background-color:#628ca6;
+    color:white;
+}
+
+#headingrow{
+    padding:10px;
+}

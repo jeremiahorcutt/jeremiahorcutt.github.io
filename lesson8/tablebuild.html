@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Table Build">
+    <title>Table Build</title>
+    <link rel="stylesheet" href="tablebuild.css">
+  </head>
+  <body>
+      <table>
+          <tbody>
+              <tr>
+                  <th id="headingrow" colspan="3">ACME Wildwest</th>
+              </tr>
+              <tr>
+                  <td class="label">Period</td>
+                  <td class="label">Sales</td>
+                  <td class="label">Sales Goal</td>
+              </tr>
+              <tr class="rowtype1">
+                <td>August</td>
+                <td>$3,950</td>
+                <td>$4,000</td>
+              </tr>
+              <tr class="rowtype2">
+                <td>September</td>
+                <td>$4,420</td>
+                <td>$5,000</td>
+              </tr>
+              <tr class="rowtype1">
+                <td>October</td>
+                <td>$4,870</td>
+                <td>$5,000</td>
+              </tr>
+              <tr id="november" class="rowtype2">
+                <td>November</td>
+                <td>$8,610</td>
+                <td>$7,500</td>
+              </tr>
+              <tr class="rowtype1">
+                <td id="blackfriday">Black Friday</td>
+                <td colspan="2">$3,200</td>
+              </tr>
+              <tr class="rowtype2">
+                <td>December</td>
+                <td>$6,820</td>
+                <td>$7,500</td>
+              </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td id="foot" colspan="3">Compiled 12.20.2020 by bRauls</td>
+                </tr>
+            </tfoot>
+      </table>
+     </body>
+</html>
