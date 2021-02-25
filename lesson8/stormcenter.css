@@ -75,6 +75,9 @@ ul{
 .navBar li{
     display:none;
 }
+nav a{
+    color:white;
+}
 li{
     font-family: 'Lora', serif;
     padding: 0;
