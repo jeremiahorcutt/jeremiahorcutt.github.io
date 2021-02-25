@@ -151,8 +151,9 @@ form{
     width:70px;
 }
 textarea{
-    width:100px;
-    height:80px;
+    margin: 0px;
+    width: 381px;
+    height: 107px;
 }
 label{
     margin-top:10px;
