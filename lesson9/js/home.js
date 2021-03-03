@@ -79,7 +79,7 @@ motto.textContent = "'" + towns[index[i]].motto + "'";
 yearfounded.textContent = "Established: " + towns[index[i]].yearFounded; 
 pop.textContent = "Population: " + towns[index[i]].currentPopulation;
 rain.textContent = "Average Rainfall: " + towns[index[i]].averageRainfall; 
-image.setAttribute('src', towns[index[i]].photo);
+image.setAttribute('src', "images/" + towns[index[i]].photo);
 town.appendChild(data);
 data.appendChild(h2);
 data.appendChild(motto);
