@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+    <title>Casting-Fore</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Casting-Fore Home">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/homemed.css">
+    <link rel="stylesheet" href="css/homelar.css">
+    
+    </head>
+    <body>
+        <header>
+            <a href="#"><img src="images/logo.png" alt="logo" id="logo"></a>
+            <h1>Casting-Fore</h1>
+            <div id="motto"><em>"Forewarned is Prepared"</em></div>
+            
+          </header>
+          <nav>
+              <ul class="navBar">
+                  <li><a class="menu" href="#"><div class="linkName">&#9776; Menu</div></a></li>
+                  <li><a href="#" id="home"><div class="linkName">Home</div></a></li>
+                  <li><a href="#" id="preston"><div class="linkName" class="active-page">Preston</div></a></li>
+                  <li><a href="#" id="sodasprings"><div class="linkName">Soda Springs</div></a></li>
+                  <li><a href="#" id="fishhaven"><div class="linkName">Fish Haven</div></a></li>
+                  <li><a href="#" id="stormcenter"><div class="linkName">Storm Center</div></a></li>
+                  <li><a href="#" id="gallery"><div class="linkName">Gallery</div></a></li>
+              </ul>
+          </nav>
+          <main>
+            <h2 id="h2Banner">Southeast Idaho</h2>
+            <section id="maincontainer">
+                <div class="heroDiv">
+                    <picture>
+                      <source srcset="images/earthmed.jpg" media="(min-width:32.5em) and (max-width:45em )">
+                      <source srcset="images/earthlarge.jpg" media="(min-width:45em)">
+                      <img id="heroImg" src="images/earthsmall.jpg" alt="earth hurricane hero image">
+                    </picture>
+                </div>
+            </section>
+            <section class="towns">
+            </section>
+            <article id="article">
+                <picture class="articleImg">
+                  <source srcset="images/wintermed.jpg" media="(min-width:32.5em) and (max-width:45em )">
+                    <source srcset="images/winterlar.jpg" media="(min-width:45em)">
+                    <img id="articleImg" src="images/wintersmall.jpg" alt="winter wonderland">
+                </picture>
+                <div class="articleContent">
+                  <h3 id="articleheader">Winter Preparedness</h3>
+                  <h4 id="author">by: Bruce Wayne</h4>
+                  <p id="articlePara">
+                    Winters are the harshest time of the year. It is essential for you and your families safety to be prepared.
+                    Winter storms can bring cold temperatures, power failures, loss of communication services, and icy roads. 
+                    To do list:
+                  </p>
+                  <ul id="articleUl">
+                    <li class="articleLi">Verify operation of furnace.</li>
+                    <li class="articleLi">Prepare a safe secondary method for heat.</li>
+                    <li class="articleLi">Replace batteries on smoke and carbon monoxide detectors.</li>
+                    <li class="articleLi">Inspect your chimney or flue.</li>
+                    <li class="articleLi">Create an emergency car kit.</li>
+                    <li class="articleLi">Check Casting-Fore forecast often to be up-to-date!</li>
+                  </ul>
+                </div> 
+            </article>
+            <div class="map">
+                <picture id="mappic">
+                  <source srcset="images/maplarge.jpg" media="(min-width:40em)">
+                  <img id="mapImg" src="images/mapmedium.jpg" alt="mapofcities">
+                </picture>
+                <section id="mapInfo">
+                    <p class="addressInfo">Casting-Fore <br>
+                    <img src="images/locationsmall.png" id="locationImg" alt="locationpin"> 30 N 1st E<br>
+                    Preston, ID 83263</p>
+                    <p id="phone">888-888-8888</p>
+                    <p id="email">notreal@casting-fore.com</p>
+                    <div class="icons">
+                       <a href="https://www.facebook.com" class="medialinks"><img id="fbook" class="mediaIcons" src="images/fbooksmall.png" alt="facebook"></a> 
+                       <a href="https://www.instagram.com" class="medialinks"><img id="insta" class="mediaIcons" src="images/instasmall.png" alt="instagram"></a>
+                       <a href="https://www.twitter.com" class="medialinks"><img id="twitter" class="mediaIcons" src="images/twittersmall.png" alt="twitter"></a>
+                       <a href="https://www.whatsapp.com/" class="medialinks"><img id="whatsapp" class="mediaIcons" src="images/whatssmall.png" alt="whatsapp"></a>
+                    </div>
+                </section>
+            </div>
+            <div id="wireframe"><a href="home-wireframes.html" id="wireframelink">Wireframe Link</a></a></div>
+          </main>
+
+          <footer>
+            <div class=footerInfo>
+                &#169;Casting-Fore  |  Attributions  |  Jeremiah Orcutt
+            </div>
+            <span id="date"></span>
+        </footer>
+        
+        <script type="text/javascript" src="js/home.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+        <script>
+            WebFont.load({
+            google: {
+            families: ['Vollkorn SC', 'Lora']
+          }
+        });
+          </script>
+    </body>
+</html>
