@@ -63,6 +63,9 @@ nav{
 #home{
     color:goldenrod;
 }
+#preston, #sodasprings, #fishhaven, #stormcenter, #gallery{
+    color:white;
+}
 ul{ 
     padding-left:initial;
     margin-top: 0px;
