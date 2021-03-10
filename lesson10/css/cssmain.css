@@ -70,7 +70,7 @@ nav{
     color:#FAFAFA;
     padding: 0;
 }
-#preston{
+#current{
     color:goldenrod;
 }
 ul{ 
@@ -270,5 +270,26 @@ h3{
     font-size:15px;
 }
 .tabledata{
+    color:white;
+}
+#eventDiv{
+    background-color:#163172;
+    margin:0 auto;
+    max-width:50%;
+    border: 2px solid grey;
+    margin-bottom:50px;
+    text-align: center;
+}
+#events{
+    color:white;
+    font-weight:bold;
+    background-color: #1e56a0;
+    border-top: 2px solid grey;
+}
+#eventHead{
+    margin-bottom:0;
+    margin-top:16px;
+}
+a:link{
     color:white;
 }
