@@ -180,3 +180,6 @@ input:not(:placeholder-shown):invalid {
     color:  #1e56a0;
     text-shadow:none;
 }
+a{
+    text-decoration:unset;
+}
