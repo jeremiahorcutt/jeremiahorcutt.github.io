@@ -1,5 +1,15 @@
+body{
+    color:#841818;
+    font-family: 'Tajawal', sans-serif;
+}
+header h1{
+    font-family: 'IM Fell Double Pica', serif;
+    margin-left:15px;
+    font-size:3em;
+    text-shadow: 1px 1px #b8950b;
+}
 header{
-    border-bottom:2px solid black;
+    border-bottom:2px solid #e0bb20;
 }
 .menu{
     font-weight:bold;
@@ -29,7 +39,7 @@ header{
 }
 a{
     text-decoration:none;
-    color:black;
+    color:#841818;
 }
 li{
     list-style-type: none;
@@ -47,4 +57,10 @@ li{
 }
 #footright{
     border-left:1px black solid;
+}
+footer{
+    clear:right;
+}
+ul{
+    padding:0;
 }
