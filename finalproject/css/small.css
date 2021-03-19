@@ -1,0 +1,50 @@
+header{
+    border-bottom:2px solid black;
+}
+.menu{
+    font-weight:bold;
+}
+.navBar li:first-child {
+    display: block;
+}
+.navBar li{
+    display:none;
+}
+.responsive li {
+	display: block;
+}
+#logo{
+    font-family: 'Merienda One', cursive;
+    size:2em;
+}
+.navBar{
+    display:block;
+    font-family: 'Texturina', serif;
+    position: relative;
+    float: right;
+    top: -75px;
+    background-color: white;
+    text-align: right;
+    z-index: 1;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+li{
+    list-style-type: none;
+    margin-right:10px;
+    margin-left:10px;
+}
+
+#footerContent, footer{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+#footleft{
+    text-align:right;
+}
+#footright{
+    border-left:1px black solid;
+}

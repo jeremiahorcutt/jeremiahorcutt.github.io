@@ -1,0 +1,35 @@
+@media only screen and (min-width: 700px){ 
+    header{
+        border-bottom:2px solid black;
+    }
+    ul{
+        padding:0;
+    }
+    .navBar li:first-child {
+        display: none;
+    }
+    .navBar li{
+        display:block;
+    }
+    #logo{
+        font-family: 'Merienda One', cursive;
+        size:2em;
+    }
+    .navBar{
+        display:flex;
+        background-color: none;
+        text-align: left;
+    }
+    a{
+        text-decoration:none;
+        color:black;
+    }
+    li{
+        list-style-type: none;
+        margin-right:10px;
+        margin-left:10px;
+    }
+    
+
+
+}
