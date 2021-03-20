@@ -54,13 +54,13 @@
         color:white;
         max-width:30%;
         margin-top:10%;
-        margin-left:17%;
+        margin-left:26%;
     }
     #joinBtn{
         position:absolute;
         z-index:1;
-        margin-left:29%;
-        margin-top:20%;
+        margin-left:38%;
+        margin-top:26%;
     }
     #weather{
         display:flex;

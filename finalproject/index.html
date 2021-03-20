@@ -11,7 +11,12 @@
     <link rel="stylesheet" href="css/normalize.css">
     </head>
     <body>
-      <aside id="weatherAlerts"></aside>
+      <aside id="weatherAlerts">
+          <h1 id="event"></h1>
+          <p id="sender_name"></p>
+          <p id="event_description"></p>
+          <input type="button" value="X" name="close" id="closeBtn" onclick="changeDisplay();">
+      </aside>
       <header>
           <div id="logoDiv">
             <img id="logo" src="images/forest.png" alt="logo">
@@ -94,7 +99,7 @@
                We strive to unite local businesses to establish a more comfortable economical experience for both both buyers and sellers alike.
                Interested in joining? Click below!
            </p>
-           <input type="button" value="Join!" id="joinBtn"/>
+           <input type="button" value="Join!" id="joinBtn" onclick="joinNow()"/>
            <picture id="commerce">
             <source srcset="images/commercemed.jpg" media="(min-width:700px) and (max-width:1200px)">
             <source srcset="images/commercelarge.jpg" media="(min-width:1200px)">

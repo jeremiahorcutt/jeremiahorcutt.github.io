@@ -1,8 +1,17 @@
-
 //menu
 const menubutton = document.querySelector('.menu');
 const mainnav = document.querySelector('.navBar');
 
+
+function changeDisplay(){
+    let aside = document.getElementById("weatherAlerts");
+    aside.style.display = 'none';
+}
+
+
+function joinNow(){
+    window.location.href = "join.html";
+}
 menubutton.addEventListener('click', () => {mainnav.classList.toggle('responsive')}, false);
 
 
@@ -45,6 +54,16 @@ fetch(apiURL)
     document.getElementById('speed').textContent = current.wind_speed;
     document.getElementById('weat').textContent = weather[0].main;
     doInputOutput(current);
+
+    //weather alerts
+    const alerts = jsObject['alerts']; 
+    let aside = document.getElementById("weatherAlerts")
+    if (alerts) {
+     aside.style.display = (aside.style.display == 'block') ? 'none' : 'block';
+     document.getElementById('sender_name').innerHTML = alerts.sender_name;
+     document.getElementById('event').innerHTML = alerts.event;
+     document.getElementById('event_description').innerHTML = alerts.description;
+   }
   });
 
   
@@ -112,3 +131,4 @@ const threeday = dayNames[todaysdate.getDay() + 3];
 document.getElementById('1day').innerHTML = oneday;
 document.getElementById('2day').innerHTML = twoday;
 document.getElementById('3day').innerHTML = threeday;
+
