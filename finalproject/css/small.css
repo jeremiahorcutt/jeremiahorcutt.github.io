@@ -1,10 +1,20 @@
 body{
     color:#841818;
     font-family: 'Tajawal', sans-serif;
+    font-size:20px;
+}
+#logo{
+    max-width: 50px;
+    height:50px;
+    margin-top:20px;
+    margin-left:15px;
+}
+#logoDiv{
+    display:flex;
 }
 header h1{
     font-family: 'IM Fell Double Pica', serif;
-    margin-left:15px;
+    margin:15px;
     font-size:3em;
     text-shadow: 1px 1px #b8950b;
 }
@@ -60,7 +70,124 @@ li{
 }
 footer{
     clear:right;
+    border-top:2px solid #e0bb20;
 }
 ul{
     padding:0;
+}
+#activeLink{
+    font-weight:bold;
+}
+a:hover{
+    color:#e0bb20;
+}
+
+/* Home page CSS*/
+picture img{
+    max-width:100%;
+    filter: none;
+}
+#commerce img{
+    filter: brightness(0.40);
+}
+#articleDiv{
+    background-color:#5f5f5f;
+}
+#chamberArticle{
+    margin:0 auto;
+    max-width:80%;
+    margin-top:25px;
+}
+
+#joinBtn{
+    width: 100px;
+    height:50px;
+    background-color:#e0bb20;
+    border:1px solid white;
+    font-size:25px;
+    font-family: 'IM Fell Double Pica', serif;
+}
+table th{
+    border-bottom: 1px #e0bb20 solid;
+}
+table tr{
+    min-width: 33;
+}
+table{
+    min-width:40%;
+    text-align:center;
+    margin:0 auto;
+}
+
+#weather{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.tabledata{
+    background-color:#c4c4c4;
+}
+#current{
+    color:balck;
+}
+.herocast{
+	padding: 5px;
+}
+#sumContent{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 30px 30px 30px 30px 30px;
+    column-gap: 5px;
+    color:black;
+    font-size:12px;
+    margin-top:3px;
+    padding-bottom:5px;
+}
+.leftSum{
+    grid-column: 1/2;
+    text-align:end;
+    font-size:18px;
+}
+.rightSum{
+    grid-column: 2/3;
+    text-align:start;
+    color:black;
+    font-size:18px;
+}
+#currently, #currently2{
+    grid-row: 1/2;
+}
+#high, #high2{
+    grid-row: 2/3;
+}
+#windChill, #windChill2{
+    grid-row: 3/4;
+}
+#humidity, #humidity2{
+    grid-row: 4/5;
+}
+#windSpeed, #windSpeed2{
+    grid-row: 5/6;
+}
+#articleContent{
+    margin:5px;
+}
+#weatherSum{
+    color:black;
+    margin-top: 3px;
+    margin-bottom:3px;
+    text-align:center;
+    font-size:30px;
+}
+#openweather{
+    color:#ea6e4b;
+}
+#copyr{
+    font-size:15px;
+}
+.tabledata{
+    color:black;
+}
+#eventsArticle{
+    clear: right;
+    margin-bottom: 25px;
 }

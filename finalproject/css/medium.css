@@ -1,5 +1,5 @@
 @media only screen and (min-width: 700px){ 
-    
+    /* General Css */
     .navBar li:first-child {
         display: none;
     }
@@ -23,7 +23,68 @@
         margin-right:10px;
         margin-left:10px;
     }
+    /*Home page css*/
+    #homeBody{
+        background-image: url('../images/river.jpg');
+        min-height: 300px;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+    }
+    #marginDefiner{
+        margin:0 auto;
+        max-width: 80%;
+        background-color:white;
+        border-left:1px solid #e0bb20;;
+        border-right:1px solid #e0bb20;;
+    }
+    main{
+        background-color: #723535;
+    }
+    #chamberH2{
+        position:absolute;
+        z-index: 1;
+        color:white;
+        font-family: 'IM Fell Double Pica', serif;
+        margin-left:25px;
+    }
+    #articleP{
+        position:absolute;
+        z-index:1;
+        text-align:center;
+        color:white;
+        max-width:30%;
+        margin-top:10%;
+        margin-left:17%;
+    }
+    #joinBtn{
+        position:absolute;
+        z-index:1;
+        margin-left:29%;
+        margin-top:20%;
+    }
+    #weather{
+        display:flex;
+    }
+    .herocast{
+        border-right:2px solid black;
+        margin-right: 25px;
+        width:300px;
+    }
+    #forecastheader{
+        margin-top:0;
+    }
+    #contactSection{
+        display:grid;
+        grid-template-columns: 60% 40%;
+        grid-template-rows: 1fr;
+    }
+    #contactContent{
+        grid-column:2/3;
+        grid-row:1/2;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        
+    }
     
-
-
 }
