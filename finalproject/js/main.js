@@ -25,7 +25,6 @@ request.send();
 
 request.onload = function () {
     var data = JSON.parse(request.responseText);
-    console.log(data);
     var weatherLogo = "https://openweathermap.org/img/wn/";
     const forecastArr = data['daily'];
     let j = 0;
@@ -46,7 +45,6 @@ request.onload = function () {
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    console.log(jsObject);
     const current = jsObject['current'];
     const weather = current.weather;
     document.getElementById('temp').textContent = current.temp;
@@ -57,12 +55,13 @@ fetch(apiURL)
 
     //weather alerts
     const alerts = jsObject['alerts']; 
-    let aside = document.getElementById("weatherAlerts")
+    let aside = document.getElementById("weatherAlerts");
+    console.log(alerts)
     if (alerts) {
      aside.style.display = (aside.style.display == 'block') ? 'none' : 'block';
-     document.getElementById('sender_name').innerHTML = alerts.sender_name;
-     document.getElementById('event').innerHTML = alerts.event;
-     document.getElementById('event_description').innerHTML = alerts.description;
+     document.getElementById('sender_name').innerHTML = alerts[0].sender_name;
+     document.getElementById('event').innerHTML = alerts[0].event;
+     document.getElementById('event_description').innerHTML = alerts[0].description;
    }
   });
 

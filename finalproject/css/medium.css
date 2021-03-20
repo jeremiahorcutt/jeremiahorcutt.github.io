@@ -37,7 +37,7 @@
         border-left:1px solid #e0bb20;;
         border-right:1px solid #e0bb20;;
     }
-    main{
+    #homeMain{
         background-color: #723535;
     }
     #chamberH2{
@@ -85,6 +85,11 @@
         margin-top: 50px;
         margin-bottom: 50px;
         
+    }
+    /*City Page CSS*/
+    #imageDiv{
+        margin: 0 auto;
+        width: 75%;
     }
     
 }
