@@ -1,4 +1,4 @@
-@media only screen and (min-width: 700px){ 
+@media only screen and (min-width: 850px){ 
     /* General Css */
     .navBar li:first-child {
         display: none;
@@ -34,8 +34,8 @@
         margin:0 auto;
         max-width: 80%;
         background-color:white;
-        border-left:1px solid #e0bb20;;
-        border-right:1px solid #e0bb20;;
+        border-left:1px solid #e0bb20;
+        border-right:1px solid #e0bb20;
     }
     #homeMain{
         background-color: #723535;
@@ -91,5 +91,32 @@
         margin: 0 auto;
         width: 75%;
     }
-    
-}
+    #imageDiv h2{
+        font-size:3em;
+        color:black;
+        position:absolute;
+        margin-top: 0;
+        top:125px;
+    }
+    #marginDefinerCity{
+        margin:0 auto;
+        max-width: 80%;
+        background-color:white;
+    }
+    #historyArticle{
+        display:flex;
+        margin: 0 auto;
+        width: 80%;
+    }
+    }
+    #historyContent{
+        width:60%;
+        margin-right: 100px;
+    }
+    #historyContent p{
+        margin:0 auto;
+        width:80%;
+    }
+    #historyImg img{
+        height:300px;
+    }

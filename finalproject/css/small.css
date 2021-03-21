@@ -215,3 +215,44 @@ aside h1, aside p{
 aside h1{
     margin-top:25px;
 }
+/*City CSS*/
+#imageDiv h2{
+    font-size:3em;
+    color:black;
+    position:absolute;
+    margin-top: 0;
+    top:125px;
+    text-shadow: 2px 2px black;
+}
+#marginDefinerCity{
+    color:#989897;
+    text-align:center;
+    }
+
+
+
+    /*contact page*/
+#contactUs{
+    margin:0 auto;
+    max-width:1200px;
+}
+#maps{
+    display:block;
+}
+#maps h2{
+    text-align:center;
+}
+form h2{
+    margin-left:10px;
+}
+#map1, #map2{
+    max-width:95%;
+}
+#cityData{
+    text-align:left;
+    background-color:#989897;
+    color:black;
+}
+.rowE{
+    background-color:#cfcfcf;
+}
