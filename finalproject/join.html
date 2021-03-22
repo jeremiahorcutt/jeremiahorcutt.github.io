@@ -14,7 +14,7 @@
       <header>
         <div id="logoDiv">
             <img id="logo" src="images/forest.png" alt="logo">
-            <h1>Bozeman Municipal</h1>
+            <h1>Bozeman Commerce</h1>
           </div>
           <nav>
             <ul class="navBar"> 
@@ -27,7 +27,64 @@
             </ul>
           </nav>
       </header>
+      <main>
+      <div id="margineDefiner">
+      <h2 id="registerH2">Register to join the Chamber of Commerce</h2>
+      <form method="get" action="thanks.html">
+        <h3>Personal Information:</h3>
+        <div class="formInfo">
+        <label for="fname">*First Name:</label>
+          <input type="text" name="fname" id="fname" placeholder="First Name" required>
 
+        <label for="lname">*Last Name:</label>
+          <input type="text" name="lname" id="lname" placeholder="Last Name" required>
+
+        <label for="lname">Title:</label>
+          <input type="text" name="title" id="title" placeholder="Title">
+
+        <label for="email">*Email:</label>
+          <input type="email" name="email" id="email" placeholder="user@email.org" required>
+             
+        <label for="phone">Phone Number:</label>
+          <input type="tel" name="phone" id="phone" placeholder="000-000-0000">
+        </div>
+        <h3>Business Information:</h3>
+        <div class="formInfo">
+        <label for="busname">*Business Name:
+          <input type="text" name="busname" id="busname"  placeholder="Business Name" required></label>
+
+        <label for="busAdd">Business Address:
+          <input type="text" name="busAdd" id="busAdd"  placeholder="Business Address"></label>
+       
+        <label for="busWeb">Business Website:
+          <input type="text" name="busWeb" id="busWeb"  placeholder="Business Website"></label>
+
+        <label for="description">Business Description:
+          <textarea name="description" id="description"></textarea></label>
+
+
+        <label for="member">Membership:
+            <select id="member">
+                <option disabled selected>Select Membership:</option>
+                <option value="noneProfit">Non-Profit ($100)</option>
+                <option value="bronze">Bronze ($200)</option>
+                <option value="silver">Silver ($400)</option>
+                <option value="gold">Gold ($1000)</option>
+        </select></label>
+        
+          <ul id="key">
+            <li class="key"><span>Non-Profit:</span> Access to local meetings, subscription to the monthly newsletter, directory listing.</li>
+            <li class="key"><span>Bronze:</span> Benefits of Non-Profit, basic advertisement pack, business trainings.</li>
+            <li class="key"><span>Silver:</span> Benefits of Bronze, advanced advertisement pack, first alert rentals, luncheos.</li>
+            <li class="key"><span>Gold: </span>Benefits of Silver, premium advertisement pack, social media posts, reserved parking at chamber meetings.</li>
+          </ul>
+        
+        <input type="submit" value="Submit" name="submit" id="submit">
+        <p id="note">* Indicates required</p>
+      </div>
+      </form>
+    </div>
+    </main>
       <footer>
         <div id="footerContent">
             <div id="footleft">
