@@ -1,0 +1,62 @@
+{
+    "business":[
+        {
+            "business_name": "heyday",
+            "address": "7 W Main St, Bozeman",
+            "phone_number":"406-586-5589",
+            "email":"online.heyday@gmail.com.",
+            "website":"https://heydaybozeman.com/",
+            "logo":"heydaylogo.png"
+        },{
+            "business_name": "Country Bookshelf",
+            "address": "28 West Main Street",
+            "phone_number":"406-587-0166",
+            "email":"staff@countrybookshelf.com",
+            "website":"https://www.countrybookshelf.com/",
+            "logo":"countrybookshelflogo.png"
+        },{
+            "business_name": "Recounture Boutique",
+            "address": "2320 west main st suite #1",
+            "phone_number":"406-582-5710",
+            "email":"recouturebozeman@gmail.com",
+            "website":"https://www.recoutureboutique.com/",
+            "logo":""
+        },{
+            "business_name": "Montana Honey Bee Co.",
+            "address": "19 S Tracy Ave",
+            "phone_number":"406-624-6446",
+            "email":"orders@montanahoneybeecompany.com",
+            "website":"https://montanahoneybeecompany.com/",
+            "logo":"mhbclogo.png"
+        },{
+            "business_name": "tart",
+            "address": "1530 W Main St",
+            "phone_number":"406-582-0416",
+            "email":"sales@tartique.com",
+            "website":"https://www.tartique.com/",
+            "logo":"tartlogo"
+        },{
+            "business_name": "Paper and Grace/",
+            "address": "117 E Oak St #1b",
+            "phone_number":"406-577-2390",
+            "email":"info@paperandgrace.com",
+            "website":"https://www.paperandgrace.com/",
+            "logo":"pandglogo.png"
+        },{
+            "business_name": "Action Lighting",
+            "address": "310 Ice Pond Rd",
+            "phone_number":"800-248-0076",
+            "email":"action@actionlighting.com",
+            "website":"https://www.actionlighting.com/",
+            "logo":"actionlogo.webp"
+        },{
+            "business_name": "Amelia Anne Photography",
+            "address": "111 E Oak St Suite 2A",
+            "phone_number":"406-551-4700",
+            "email":"hello@ameliaannephotography.com",
+            "website":"https://ameliaannephotography.com/",
+            "logo":"aaplogo.png"
+        }
+
+    ]
+}
