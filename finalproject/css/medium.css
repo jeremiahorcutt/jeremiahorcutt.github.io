@@ -120,3 +120,21 @@
     #historyImg img{
         height:300px;
     }
+
+    /*Contact page*/
+    #marginDefinerContact{
+        margin:0 auto;
+        max-width: 80%;
+        background-color:white;
+        border-left:1px solid #e0bb20;
+        border-right:1px solid #e0bb20;
+    }
+    #map1{
+        margin-left:200px;
+    }
+    #contactUs{
+        margin-left:100px;
+    }
+    #contentContainer{
+        display:flex;
+    }
