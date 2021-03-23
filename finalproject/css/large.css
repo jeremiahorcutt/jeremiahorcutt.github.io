@@ -1,5 +1,15 @@
-@media only screen and (min-width: 1130px){
-    .card{
-        width:345px;
+@media only screen and (min-width: 1610px){
+    iframe{
+        width: 600px;
+        margin-left: 5px;
+    }
+    #contentContainer{
+        display:flex;
+    }
+    #map1{
+        margin-left:200px;
+    }
+    #homebody{
+        background-image: url('../images/river.jpg');
     }
 }

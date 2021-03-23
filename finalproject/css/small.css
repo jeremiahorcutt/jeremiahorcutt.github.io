@@ -207,6 +207,7 @@ table{
     color:white;
     float:right;
     position: relative;
+    width: 20px;
 }
 aside{
     display:none;
@@ -260,7 +261,7 @@ aside h1{
 form h2{
     margin-left:10px;
 }
-#map1, #map2{
+#map1{
     max-width:95%;
 }
 #cityData{
@@ -271,7 +272,13 @@ form h2{
 .rowE{
     background-color:#cfcfcf;
 }
-
+iframe{
+    width: 100%;
+    margin-left: 5px;
+}
+#marginDefinerContact h2{
+    margin-left:20px;
+}
 /*join page*/
 form{
     display:flex;
