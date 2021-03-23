@@ -299,3 +299,18 @@ input, #member{
     margin-left:15px;
     margin-bottom:500px;
 }
+/*Directory page css*/
+.card{
+    width:80%;
+    margin:0 auto;
+    border:2px black solid;
+    box-shadow: 3px 3px 8px black;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.card img{
+    max-width:50%;
+}
+#viewDiv{
+    display:none;
+}

@@ -10,6 +10,7 @@ fetch(newURL)
     for (let i = 0; i < businesses.length; i++ ) {
         let card = document.createElement('section');
         card.setAttribute("id","card" + i);
+        card.setAttribute("class","card");
         let h2 = document.createElement('h2');
         let email = document.createElement('p');
         let phone = document.createElement('p');
@@ -23,12 +24,13 @@ phone.textContent = businesses[i].phone_number;
 website.textContent = businesses[i].website; 
 address.textContent = businesses[i].address; 
 image.setAttribute('src', businesses[i].logo);
+image.setAttribute('alt', businesses[i].business_name + " logo");
+card.appendChild(image);
 card.appendChild(h2);
 card.appendChild(email);
 card.appendChild(phone);
 card.appendChild(website);
 card.appendChild(address);
-card.appendChild(image);
 document.querySelector('#cardDisplay').appendChild(card);
     }
       });

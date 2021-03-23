@@ -1,4 +1,4 @@
-@media only screen and (min-width: 850px){ 
+@media only screen and (min-width: 450px){ 
     /* General Css */
     .navBar li:first-child {
         display: none;
@@ -136,5 +136,10 @@
         margin-left:100px;
     }
     #contentContainer{
+        display:flex;
+    }
+
+    /*directory page css*/
+    #viewDiv{
         display:flex;
     }
