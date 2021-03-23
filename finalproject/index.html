@@ -90,12 +90,18 @@
         </tbody>
         </table>
        </article>
+       <hr>
        <div id="homeBody">
     </div>
        <div id="articleDiv">
        <article id="chamberArticle">
            <h2 id="chamberH2">Chamber of Commerce</h2>
-           <div >
+           <picture id="commerce">
+            <source srcset="images/commercemed.jpg" media="(min-width:700px) and (max-width:1200px)">
+            <source srcset="images/commercelarge.jpg" media="(min-width:1200px)">
+          <img id="commerceImg" src="images/commercesmall.jpg" alt="chamberofcommerce">
+        </picture>
+           <div>
            <p id="articleP">
                Here in Bozeman our Chamber of Commerce is constantly at work to ensure the well-being of our members and our community. 
                We strive to unite local businesses to establish a more comfortable economical experience for both both buyers and sellers alike.
@@ -103,14 +109,9 @@
            </p>
         </div>
            <input type="button" value="Join!" id="joinBtn" onclick="joinNow()"/>
-           <picture id="commerce">
-            <source srcset="images/commercemed.jpg" media="(min-width:700px) and (max-width:1200px)">
-            <source srcset="images/commercelarge.jpg" media="(min-width:1200px)">
-          <img id="commerceImg" src="images/commercesmall.jpg" alt="chamberofcommerce">
-        </picture>
-
        </article>
     </div>
+    <hr>
     <section id="contactSection">
         <div id="weather">
             <section class="herocast">
@@ -148,6 +149,7 @@
               </table>
           </div>
         </div>
+        <hr>
         <div id="contactContent">
           <h5>Contact information:</h4>
             <ul>
@@ -183,6 +185,7 @@
           </div>
       </footer>
       <script type="text/javascript" src="js/main.js"></script>
+      <script type="text/javascript" src="js/index.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
         <script>
             WebFont.load({
