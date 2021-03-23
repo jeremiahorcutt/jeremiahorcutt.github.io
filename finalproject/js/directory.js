@@ -1,3 +1,5 @@
+
+//getting information from JSON file to populate cards
 const newURL = 'businesses.JSON';
 console.log(newURL);
 fetch(newURL)
@@ -35,3 +37,15 @@ card.appendChild(address);
 document.querySelector('#cardDisplay').appendChild(card);
     }
       });
+
+//function for switching to grid view
+function gridView(){
+const div = document.getElementById('cardDisplay');
+div.style.display = "grid";
+}
+
+//function for switching to list view
+function listView(){
+  const div = document.getElementById('cardDisplay');
+  div.style.display = "block";  
+}

@@ -143,6 +143,30 @@
         display:flex;
     }
     .card{
-        width:50%;
+        width:345px;
+    }
+    
+    #viewDiv input{
+        width:80px;
+        border:none;
+        font-weight: bold;
+        background:none;
+        color:#e0bb20;
+        outline:none;
+    }
+    #viewDiv input:hover{
+        color:#723535;
+    }
+    #viewDiv input:active{
+        color:#e0bb20;
+    }
+    
+    #grid{
+        margin-left:20px;
+    }
+    #cardDisplay{
+        display:block;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
     }
 }

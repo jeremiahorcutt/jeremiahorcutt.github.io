@@ -301,7 +301,7 @@ input, #member{
 }
 /*Directory page css*/
 .card{
-    width:80%;
+    width:345px;
     margin:0 auto;
     border:2px black solid;
     box-shadow: 3px 3px 8px black;
@@ -309,13 +309,14 @@ input, #member{
     margin-bottom:10px;
     text-align:center;
     padding:5px;
+    height:390px;
 }
 .card p{
     max-width: 98%;
     word-wrap: break-word;   
 }
 .card img{
-    max-width:50%;
+    max-width:90%;
 }
 #viewDiv{
     display:none;
