@@ -37,9 +37,7 @@
         border-left:1px solid #e0bb20;
         border-right:1px solid #e0bb20;
     }
-    #homeMain{
-        background-color: #723535;
-    }
+
     #commerce img{
         filter: brightness(0.30);
         width:100%;
