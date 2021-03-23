@@ -40,6 +40,11 @@
     #homeMain{
         background-color: #723535;
     }
+    #commerce img{
+        filter: brightness(0.30);
+        width:100%;
+        margin-top:10px;
+    }
     #chamberH2{
         position:absolute;
         z-index: 1;
@@ -57,20 +62,19 @@
     hr{
         display:none;
     }
+    #chamberDiv{
+        position: relative;
+    }
     #articleP{
         position:absolute;
         z-index:1;
         text-align:center;
         color:white;
-        max-width:30%;
-        margin-top:10%;
-        margin-left:26%;
+        top:-200px;
     }
     #joinBtn{
-        position:absolute;
         z-index:1;
-        margin-left:38%;
-        margin-top:26%;
+        margin-bottom:10px;
     }
     #weather{
         display:flex;

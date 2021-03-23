@@ -12,4 +12,7 @@
     #homeBody{
         background-image: url('../images/river.jpg');
     }
+    #articleP{
+        top:-300px;
+    }
 }
