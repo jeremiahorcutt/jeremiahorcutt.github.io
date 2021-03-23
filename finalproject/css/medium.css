@@ -108,7 +108,6 @@
         margin: 0 auto;
         width: 80%;
     }
-    }
     #historyContent{
         width:60%;
         margin-right: 100px;
@@ -143,3 +142,7 @@
     #viewDiv{
         display:flex;
     }
+    .card{
+        width:50%;
+    }
+}

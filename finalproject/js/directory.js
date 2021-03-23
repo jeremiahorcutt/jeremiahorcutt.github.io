@@ -14,15 +14,16 @@ fetch(newURL)
         let h2 = document.createElement('h2');
         let email = document.createElement('p');
         let phone = document.createElement('p');
-        let website = document.createElement('p');
+        let website = document.createElement('a');
         let address = document.createElement('p');
         let image = document.createElement('img');
 
 h2.textContent = businesses[i].business_name;
 email.textContent = businesses[i].email; 
 phone.textContent = businesses[i].phone_number; 
-website.textContent = businesses[i].website; 
+website.textContent = "Website"; 
 address.textContent = businesses[i].address; 
+website.setAttribute('href', businesses[i].website);
 image.setAttribute('src', businesses[i].logo);
 image.setAttribute('alt', businesses[i].business_name + " logo");
 card.appendChild(image);

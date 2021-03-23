@@ -307,10 +307,19 @@ input, #member{
     box-shadow: 3px 3px 8px black;
     margin-top:10px;
     margin-bottom:10px;
+    text-align:center;
+    padding:5px;
+}
+.card p{
+    max-width: 98%;
+    word-wrap: break-word;   
 }
 .card img{
     max-width:50%;
 }
 #viewDiv{
     display:none;
+}
+#directoryHeader{
+    margin-left:10px;
 }

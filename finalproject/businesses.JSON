@@ -20,7 +20,7 @@
             "phone_number":"406-582-5710",
             "email":"recouturebozeman@gmail.com",
             "website":"https://www.recoutureboutique.com/",
-            "logo":""
+            "logo":"images/botlogo.png"
         },{
             "business_name": "Montana Honey Bee Co.",
             "address": "19 S Tracy Ave",
@@ -48,7 +48,7 @@
             "phone_number":"800-248-0076",
             "email":"action@actionlighting.com",
             "website":"https://www.actionlighting.com/",
-            "logo":"images/actionlogo.webp"
+            "logo":"images/actionlogo.png"
         },{
             "business_name": "Amelia Anne Photography",
             "address": "111 E Oak St Suite 2A",
