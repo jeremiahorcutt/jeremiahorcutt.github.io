@@ -229,6 +229,22 @@ aside h1{
 #contactContent{
     text-align: center;    
 }
+.ad{
+    margin:1.5%;
+    text-align:center;
+    background-color: lightgrey;
+    border-radius: 15px;
+}
+.ad picture img{
+    width:100%;
+}
+.ad h3, .ad p{
+    margin-top:3px;
+    margin-bottom:5px;
+}
+#ads h2{
+    text-align:center;
+}
 /*City CSS*/
 #imageDiv h2{
     font-size:2.5em;

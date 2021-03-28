@@ -97,6 +97,12 @@
         margin-bottom: 50px;
         
     }
+    #adsDiv{
+        display:flex;
+    }
+    .ad{
+        max-width:30%;
+    }
     /*City Page CSS*/
     #imageDiv{
         margin: 0 auto;
@@ -144,8 +150,10 @@
     #contactUs{
         margin-left:100px;
     }
+    #boardDirectors{
+        margin-left:100px;
+    }
     
-
     /*directory page css*/
     #viewDiv{
         display:flex;
