@@ -6,13 +6,9 @@
     .navBar li{
         display:block;
     }
-    #logo{
-        font-family: 'Merienda One', cursive;
-        size:2em;
-    }
     .navBar{
         display:flex;
-        background-color: none;
+        background-color: white;
         text-align: left;
     }
     a{

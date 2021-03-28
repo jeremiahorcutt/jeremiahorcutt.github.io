@@ -8,6 +8,7 @@ body{
     height:50px;
     margin-top:20px;
     margin-left:15px;
+    font-family: 'Merienda One', cursive;
 }
 #logoDiv{
     display:flex;
@@ -32,10 +33,6 @@ header{
 }
 .responsive li {
 	display: block;
-}
-#logo{
-    font-family: 'Merienda One', cursive;
-    size:2em;
 }
 .navBar{
     display:block;
@@ -118,7 +115,7 @@ table th{
     border-bottom: 1px #e0bb20 solid;
 }
 table tr{
-    min-width: 33;
+    min-width: 33px;
 }
 table{
     min-width:40%;
@@ -134,7 +131,7 @@ table{
     background-color:#c4c4c4;
 }
 #current{
-    color:balck;
+    color:black;
 }
 .herocast{
 	padding: 5px;
